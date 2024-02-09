@@ -1,0 +1,66 @@
+/* Debugging outlines that do not affect dimensions */
+/* Using box-shadow to avoid changing the dimensions of the elements */
+
+/* Level 1: Direct children of body */
+body > * {
+    box-shadow: 0 0 0 1px blue inset;
+}
+
+/* Level 2: Grandchildren of body */
+body > * > * {
+    box-shadow: 0 0 0 1px red inset;
+}
+
+/* Level 3: Great-grandchildren of body */
+body > * > * > * {
+    box-shadow: 0 0 0 1px green inset;
+}
+
+/* Level 4: Great-great-grandchildren of body */
+body > * > * > * > * {
+    box-shadow: 0 0 0 1px indigo inset;
+}
+
+/* Level 5: Great-great-great-grandchildren of body */
+body > * > * > * > * > * {
+    box-shadow: 0 0 0 1px orange inset;
+}
+
+/* Level 6: Hearty pioneer ancestors of body */
+body > * > * > * > * > * > * {
+    box-shadow: 0 0 0 1px violet inset;
+}
+
+/* Level 7: The sacred elders of body */
+body > * > * > * > * > * > * > * {
+    box-shadow: 0 0 0 1px yellow inset;
+}
+
+/* Debug color overlays */
+.debug.r {
+    background-color: rgba(255, 0, 0, 0.1); /* More subtle transparency */
+}
+
+.debug.o {
+    background-color: rgba(255, 165, 0, 0.1);
+}
+
+.debug.y {
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+.debug.g {
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.debug.b {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+.debug.i {
+    background-color: rgba(75, 0, 130, 0.1);
+}
+
+.debug.v {
+    background-color: rgba(238, 130, 238, 0.1);
+}
