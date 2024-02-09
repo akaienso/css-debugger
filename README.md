@@ -4,7 +4,6 @@ This repository contains two essential files designed to aid in the debugging of
 
 **Direct Download:** [`debug.css`](https://debug-css.rmoore.dev/debug.css) | [`debug.js`](https://debug-css.rmoore.dev/debug.js)
 
-**Direct Download:** <a id="raw-url" href="https://raw.githubusercontent.com/akaienso/debug-css/main/debug.css" download>`debug.css`</a> or <a id="raw-url" href="https://raw.githubusercontent.com/akaienso/debug-css/main/debug.js" download>`debug.js`</a>
 ## Features
 
 ### `debug.css`
