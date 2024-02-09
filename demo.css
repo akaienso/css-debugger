@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #497094; /* Customizable primary color */
+    --text-color: #333; /* Dark gray for text */
+    --background-color: #f5f5f5; /* Light gray background */
+    --container-padding: 20px;
+    --border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: var(--container-padding);
+}
+
+.box {
+    padding: 20px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.flex-row {
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+}
+@media (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+    }
+}
