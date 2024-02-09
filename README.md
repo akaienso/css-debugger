@@ -2,7 +2,9 @@
 
 This repository contains two essential files designed to aid in the debugging of CSS issues during the development of web interfaces: `debug.css` and `debug.js`. These tools provide visual cues and console outputs to facilitate the identification and resolution of styling issues.
 
-**Direct Download:** [`debug.css`](https://debug-css.rmoore.dev/debug.css) | [`debug.js`](https://debug-css.rmoore.dev/debug.js)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akaienso/debug-css) [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://debug-css.rmoore.dev/debug.css) [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://debug-css.rmoore.dev/debug.js)
+
+[![BuyMeATaco](https://github.com/akaienso/debug-css/assets/676056/8d14866a-83e6-4fb3-8271-6b2ac4d12a18)](https://t.co/GeMuimFxW2)
 
 ## Features
 
