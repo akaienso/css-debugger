@@ -48,7 +48,7 @@ Add the `debug` class to any element you wish to inspect, and optionally add a s
 </div>
 ```
 
-![chrome_6azdCCLbaK](https://github.com/akaienso/css-debugger/assets/676056/ee862d64-54e9-4674-b2de-4a4265f7a422)
+[![demo-css demo](https://github.com/akaienso/css-debugger/assets/676056/ee862d64-54e9-4674-b2de-4a4265f7a422)](https://debug-css.rmoore.dev/demo/)
 
 ## Contribution
 
