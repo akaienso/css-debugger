@@ -28,16 +28,26 @@ This repository contains two essential files designed to aid in the debugging of
 Link the `debug.css` file in the `<head>` of your HTML document:
 
 ```html
-<link rel="stylesheet" href="path/to/debug.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/akaienso/debug-css/debug.css">
 ```
+ or enqueue it in a WordPress plugin or theme:
 
+ ```php
+wp_enqueue_style('akaienso-debug-css', 'https://cdn.jsdelivr.net/gh/akaienso/debug-css/debug.css');
+```
 
 ### JavaScript
 
 Include the `debug.js` script just before the closing `</body>` tag in your HTML document:
 
 ```html
-<script src="path/to/debug.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/akaienso/debug-css/debug.js"></script>
+```
+
+ or enqueue it in a WordPress plugin or theme:
+
+ ```php
+wp_enqueue_script('akaienso-debug-js', 'https://cdn.jsdelivr.net/gh/akaienso/debug-css/debug.js', null, null, false);
 ```
 
 ### Applying Debug Classes
